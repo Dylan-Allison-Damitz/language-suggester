@@ -7,16 +7,17 @@ $(document).ready(function() {
     const answerFour = parseInt($("input:radio[name=domicile]:checked").val());
     const answerFive = parseInt($("input:radio[name=music]:checked").val());
     
-    if(answerOne + answerTwo + answerThree + answerFour + answerFive <= 5 && 8) {
+    if(answerOne + answerTwo + answerThree + answerFour + answerFive < 8) {
       document.getElementById("javascript").style.display = "block";
     } else if (answerOne + answerTwo + answerThree + answerFour + answerFive <= 9 && 14)
       document.getElementById("ruby").style.display = "block";
       else if (answerOne + answerTwo + answerThree + answerFour + answerFive == 15)
       document.getElementById("python").style.display = "block";
+
       
 
-
+      event.preventDefault();
     
-    event.preventDefault();
+    
 });
 });
