@@ -1,5 +1,6 @@
 #javascript {
   display: none;
+  height: 100%;
 }
 
 #ruby {
@@ -10,3 +11,25 @@
   display: none;
 }
 
+img {
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.box {
+  width: 95%;
+  background-color: rgb(247, 224, 21);
+  border: 10px solid rgb(19, 18, 18);
+  margin: 10px;
+  padding: 10px;
+  font-family: verdana;
+  color: rgb(12, 11, 11);
+  border-radius: 10px;
+}
+
+h3 {
+  text-align: center;
+}

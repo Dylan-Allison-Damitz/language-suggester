@@ -18,11 +18,6 @@ $(document).ready(function() {
       document.getElementById("hideAll").style.display ="none";
     }
 
-      
-
-
-      
-
       event.preventDefault();
     
     
