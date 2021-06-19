@@ -30,6 +30,28 @@ img {
   border-radius: 10px;
 }
 
+.box2 {
+  width: 95%;
+  background-color: rgb(250, 210, 164);
+  border: 10px solid rgb(19, 18, 18);
+  margin: 10px;
+  padding: 10px;
+  font-family: verdana;
+  color: rgb(12, 11, 11);
+  border-radius: 10px;
+}
+
+.box3 {
+  width: 95%;
+  background-color: white;
+  border: 10px solid rgb(19, 18, 18);
+  margin: 10px;
+  padding: 10px;
+  font-family: verdana;
+  color: rgb(12, 11, 11);
+  border-radius: 10px;
+}
+
 h3 {
   text-align: center;
 }
