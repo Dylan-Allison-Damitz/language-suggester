@@ -8,16 +8,15 @@ $(document).ready(function() {
     const result = answerOne + answerTwo + answerThree + answerFour + answerFive;
     
     if(result < 9) {
-      document.getElementById("javascript").style.display ="block";
-      document.getElementById("hideAll").style.display ="none";
+      $("#hideAll").hide()
+      $("#javascript").show()
     } else if (result >= 9 && result < 15) {
-      document.getElementById("ruby").style.display ="block";
-      document.getElementById("hideAll").style.display ="none";
+      $("#hideAll").hide()
+      $("#ruby").show()
     } else if (result == 15) {
-      document.getElementById("python").style.display ="block";
-      document.getElementById("hideAll").style.display ="none";
+      $("#hideAll").hide()
+      $("#python").show()
     }
-
       event.preventDefault();
   });
 });
