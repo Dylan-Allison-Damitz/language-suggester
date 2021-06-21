@@ -8,14 +8,14 @@ $(document).ready(function() {
     const result = answerOne + answerTwo + answerThree + answerFour + answerFive;
     
     if(result < 9) {
-      $("#hideAll").hide()
-      $("#javascript").show()
+      $("#hideAll").hide();
+      $("#javascript").show();
     } else if (result >= 9 && result < 15) {
-      $("#hideAll").hide()
-      $("#ruby").show()
+      $("#hideAll").hide();
+      $("#ruby").show();
     } else if (result == 15) {
-      $("#hideAll").hide()
-      $("#python").show()
+      $("#hideAll").hide();
+      $("#python").show();
     }
       event.preventDefault();
   });
